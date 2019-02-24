@@ -1,12 +1,17 @@
 {
-  "name": "CTTDVNATL-WEB",
+  "name": "cttdvnatl-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
     "react": "^16.8.2",
     "react-bootstrap": "1.0.0-beta.5",
-    "react-dom": "^16.8.2",
-    "react-scripts": "^2.1.5"
+    "react-dom": "^16.8.3",
+    "react-scripts": "^2.1.5",
+    "reactstrap": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,5 +30,17 @@
   ],
   "devDependencies": {
     "react-router-dom": "^4.4.0-beta.6"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiep12/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiep12/web/issues"
+  },
+  "homepage": "https://github.com/Hiep12/web#readme"
 }

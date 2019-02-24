@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Laila');
+
+
+.navbar {
+    background-color: #353535;
+}
+
+.nav-item a, .btn-secondary{
+    color: #d6d3d3 !important;
+}
+
+.nav-item a:hover, .btn-secondary:hover{
+    color: #fff !important;
+}
+.navbar-brand img{
+    height: 100px;
+}
+
+.navbar, .btn-secondary {
+    font-family: 'calibri', sans-serif !important;
+    font-size: 26px !important;
+}
+
+.btn-secondary {
+    border: none !important;
+    background-color: #353535 !important;
+}
+
+.email, .phone {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.fa-envelope, .fa-phone-square {
+    color: yellow;
+}

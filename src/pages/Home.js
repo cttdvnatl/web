@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import logo from '../assets/images/logo.png'
+import Header from '../components/Header';
 //import PropTypes from 'prop-types';
+import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -18,10 +21,8 @@ export default class Home extends Component {
 
     return (
       <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" />
-        <h1>Home Page</h1>
-      </header>
+        <Header />
+        
       </div>
     )
   }
@@ -36,3 +37,8 @@ export default class Home extends Component {
 //   ]),
 //   user: PropTypes.object
 // };
+
+// <header className="App-header">
+// <img src={logo} alt="logo" />
+// <h1>Home Page</h1>
+// </header>

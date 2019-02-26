@@ -4,19 +4,18 @@ import './App.css'
 
 import {Home, About, Contact} from '../../pages'
 
-const Links = () =>
-  <nav>
-    <Link to='/'>Home</Link>
-    <Link to='/about'>About</Link>
-    <Link to='/contact'>Contact</Link>
-  </nav>
+// const Links = () =>
+//   <nav>
+//     <Link to='/'>Home</Link>
+//     <Link to='/about'>About</Link>
+//     <Link to='/contact'>Contact</Link>
+//   </nav>
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <Links />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />

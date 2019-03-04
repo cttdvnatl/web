@@ -1,0 +1,27 @@
+.menu-container {
+  width: 100%;
+}
+
+.menu {
+  border-bottom: none;
+  border-right: none;
+}
+
+.dropdown-item {
+  color: black;
+  background-color: white;
+}
+
+.down-icon {
+  bottom: 2px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.drawer-handle {
+  float: right;
+}
+
+.drawer-handle i {
+  font-size: 25px;
+}

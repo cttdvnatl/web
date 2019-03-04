@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../assets/images/logo.png'
+import Header from '../components/Header';
 //import PropTypes from 'prop-types';
 
 export default class Home extends Component {
@@ -16,12 +16,24 @@ export default class Home extends Component {
     //   user,
     // };
 
+    // TODO: remove image placeholder below when Hiep finishes carousel
+
     return (
       <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" />
-        <h1>Home Page</h1>
-      </header>
+        <div className="header-top">
+        </div>
+
+        <Header />
+
+        <div
+          class="container"
+          style={{
+                    backgroundImage: 'url(http://www.cttdvnatl.org/en/wp-content/uploads/2013/03/Faith-Banner-900x355.jpg)',
+                    height: '400px',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                }}
+        ></div>
       </div>
     )
   }
@@ -36,3 +48,8 @@ export default class Home extends Component {
 //   ]),
 //   user: PropTypes.object
 // };
+
+// <header className="App-header">
+// <img src={logo} alt="logo" />
+// <h1>Home Page</h1>
+// </header>

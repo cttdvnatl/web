@@ -1,0 +1,17 @@
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding:10px 20px;
+}
+
+.header-top {
+    height: 33px;
+    background-color: rgb(181, 163, 112);
+}
+
+.logo {
+    width: 200px;
+}

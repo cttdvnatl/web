@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
-import logo from '../assets/images/logo.png'
 import Header from '../components/Header';
 //import PropTypes from 'prop-types';
-import Button from 'react-bootstrap/Button'
-import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -19,10 +16,24 @@ export default class Home extends Component {
     //   user,
     // };
 
+    // TODO: remove image placeholder below when Hiep finishes carousel
+
     return (
       <div className="App">
+        <div className="header-top">
+        </div>
+
         <Header />
-        
+
+        <div
+          class="container"
+          style={{
+                    backgroundImage: 'url(http://www.cttdvnatl.org/en/wp-content/uploads/2013/03/Faith-Banner-900x355.jpg)',
+                    height: '400px',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                }}
+        ></div>
       </div>
     )
   }

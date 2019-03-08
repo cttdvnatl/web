@@ -1,10 +1,11 @@
 import React from "react";
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
+import './style.css';
 
 const CardComp = () => (
 
-    <div>
+    <div className="card-news">
         <CardDeck>
             <Card>
                 <Card.Body>

@@ -7,15 +7,8 @@ import { Menu, Drawer } from 'antd';
 const breakpoint = 600
 
 class MainMenu extends Component {
-    constructor() {
-        super()
-
-        this.state = {
-            isOpenDrawer: false
-        }
-
-        this.onShowDrawer = this.onShowDrawer.bind(this)
-        this.onCloseDrawer = this.onCloseDrawer.bind(this)
+    state = {
+        isOpenDrawer: false
     }
 
     onShowDrawer = () => {
@@ -28,13 +21,13 @@ class MainMenu extends Component {
 
     buildMenu = (isMobile) => (
         <Menu mode={`${isMobile ? 'inline' : 'horizontal'}`} className="menu">
-            <Menu.Item>
+            <Menu.Item className="menu-item">
                 <Link to="/Home">HOME</Link>
             </Menu.Item>
-            <Menu.Item>
+            <Menu.Item className="menu-item">
                 <Link to="/About">ABOUT</Link>
             </Menu.Item>
-            <Menu.Item>
+            <Menu.Item className="menu-item">
                 <Link to="/Contact">CONTACT</Link>
             </Menu.Item>
         </Menu>

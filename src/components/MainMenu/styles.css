@@ -8,6 +8,11 @@
   border-right: none;
 }
 
+.menu-item > a {
+  color: #232323 !important;
+  font-weight: bold;
+}
+
 .dropdown-item {
   color: black;
   background-color: white;

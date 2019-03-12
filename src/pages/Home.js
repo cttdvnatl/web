@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
+
 import CarouselComp from '../components/Carousel/CarouselComp';
 import CardComp from "../components/Card/CardComp";
 
@@ -11,14 +11,10 @@ export default class Home extends Component {
   }
 
   render() {
-
     return (
-      <div className="App">
-
-        <Header />
+      <div>
         <CarouselComp />
         <CardComp />
-        
       </div>
     )
   }

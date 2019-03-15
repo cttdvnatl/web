@@ -1,0 +1,19 @@
+    {
+        "card": [
+            {
+                "title": "slide 1",
+                "directory": "./images/",
+                "text": "./images"
+            },
+            {
+                "title": "slide 2",
+                "directory": "./images/",
+                "text": "./images"
+            },
+            {
+                "title": "slide 3",
+                "directory": "./images/",
+                "text": "./images"
+            }
+        ]
+    }

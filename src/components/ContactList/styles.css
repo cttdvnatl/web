@@ -1,0 +1,7 @@
+.contact-row:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.contact-description:not(:last-child) {
+    margin-bottom: 5px;
+}

@@ -1,29 +1,3 @@
-.card-container {
-    border: 1px solid rgb(232,232,232);
-}
-
-.card-container.has-padding {
-    padding: 25px;
-}
-
-.message-wrapper {
-    width: 50%;
-    padding: 25px;
-}
-
-.map-wrapper {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.address {
-    padding: 25px;
-}
-
-.title {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(0,0,0,0.75);
-    margin-bottom: 7px;
+.container-fluid {
+  padding: 0 0;
 }

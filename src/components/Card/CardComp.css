@@ -1,0 +1,35 @@
+.introduction .card {
+    border: none;
+}
+
+.introduction {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.introduction h5{
+    font-size: 25px;
+}
+
+.introduction h3, .introduction h5, .introduction .h5 {
+    font-weight: 600;
+}
+
+.introduction h3 {
+    text-align: center;
+}
+.introduction .card-text {
+    font-size: 20px;
+}
+
+.introduction .card-deck {
+    width: 1200px;
+}
+
+.introduction .content {
+    justify-content: center;
+}
+
+.introduction .card-body {
+    padding: 0;
+}

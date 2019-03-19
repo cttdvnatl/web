@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MassSchedule should render correctly 1`] = `
+<section
+  className="mass_schedule"
+>
+  <div
+    className="jumbotron jumbotron-fluid"
+  >
+    <h1>
+      Our Mass Schedule
+    </h1>
+    <div
+      className="row"
+    >
+      <dl>
+        <dt>
+          Monday-Saturday
+        </dt>
+        <dd>
+          7:30 AM
+        </dd>
+        <dd>
+          9:30 AM
+        </dd>
+        <dd>
+          11:30 AM
+        </dd>
+      </dl>
+      <dl>
+        <dt>
+          Thursday-Friday
+        </dt>
+        <dd>
+          7:00 PM
+        </dd>
+      </dl>
+      <dl>
+        <dt>
+          Sunday 
+        </dt>
+        <dd>
+          7:30 AM
+        </dd>
+        <dd>
+          2 x 9:30 AM
+        </dd>
+        <dd>
+          11:30 AM
+        </dd>
+      </dl>
+    </div>
+  </div>
+</section>
+`;

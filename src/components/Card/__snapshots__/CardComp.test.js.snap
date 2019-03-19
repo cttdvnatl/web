@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly 1`] = `
+<section
+  className="introduction"
+>
+  <div
+    className="header"
+  >
+    <h3>
+      Welcome To CTTDVNATL
+    </h3>
+  </div>
+  <div
+    className="row content"
+  >
+    <div
+      className="card-deck"
+    >
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          History
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Mission
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Construction
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`CardComp should render correctly 1`] = `
+<section
+  className="introduction"
+>
+  <div
+    className="header"
+  >
+    <h3>
+      Welcome To CTTDVNATL
+    </h3>
+  </div>
+  <div
+    className="row content"
+  >
+    <div
+      className="card-deck"
+    >
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          History
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Mission
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Construction
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Main Menu should render correctly 1`] = `
+<section
+  className="introduction"
+>
+  <div
+    className="header"
+  >
+    <h3>
+      Welcome To CTTDVNATL
+    </h3>
+  </div>
+  <div
+    className="row content"
+  >
+    <div
+      className="card-deck"
+    >
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          History
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Mission
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/home"
+        >
+          <img
+            className="card-img"
+            src="./images/internal.jpg"
+          />
+        </a>
+        <div
+          className="card-title h5"
+        >
+          Construction
+        </div>
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-text"
+          >
+            Started at the end of 2018 and finish at the end of 2019.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

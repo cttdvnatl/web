@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel should render correctly 1`] = `
+<div>
+  <div
+    className="carousel slide"
+    onKeyDown={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+  >
+    <ol
+      className="carousel-indicators"
+    >
+      <li
+        className="active"
+        onClick={[Function]}
+      />
+       
+      <li
+        className={null}
+        onClick={[Function]}
+      />
+       
+      <li
+        className={null}
+        onClick={[Function]}
+      />
+       
+    </ol>
+    <div
+      className="carousel-inner"
+    >
+      <div
+        className="carousel-item active carousel-item"
+      >
+        <img
+          alt="first slide"
+          className="carousel-image"
+          src="./images/internal.jpg"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            First Slide
+          </h3>
+          <p>
+            easy on me
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item carousel-item"
+      >
+        <img
+          alt="Second slide"
+          className="carousel-image"
+          src="./images/external.jpg"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            Second Slide
+          </h3>
+          <p>
+            easy on me slide 2
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item carousel-item"
+      >
+        <img
+          alt="third slide"
+          className="carousel-image"
+          src="./images/external.jpg"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            third Slide
+          </h3>
+          <p>
+            easy on me slide 3
+          </p>
+        </div>
+      </div>
+    </div>
+    <a
+      className="carousel-control-prev"
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-prev-icon"
+      />
+      <span
+        className="sr-only"
+      >
+        Previous
+      </span>
+    </a>
+    <a
+      className="carousel-control-next"
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-next-icon"
+      />
+      <span
+        className="sr-only"
+      >
+        Next
+      </span>
+    </a>
+  </div>
+</div>
+`;
